@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: "@project.name@" # quote marks used to make STS YAML parser calm
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/microservicesteam/nutaxi-configs
+          searchPaths: '{application}' # note only works in YAML format :(
+server:
+  port: 8888
