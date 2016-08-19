@@ -1,6 +1,6 @@
 # nutaxi-config-service
 
-[![Build Status](https://travis-ci.org/microservicesteam/nutaxi-route-service.svg?branch=master)](https://travis-ci.org/microservicesteam/nutaxi-route-service) [![codecov](https://codecov.io/gh/microservicesteam/nutaxi-config-server/branch/master/graph/badge.svg)](https://codecov.io/gh/microservicesteam/nutaxi-config-server)
+[![Build Status](https://travis-ci.org/microservicesteam/nutaxi-config-server.svg?branch=master)](https://travis-ci.org/microservicesteam/nutaxi-config-server) [![codecov](https://codecov.io/gh/microservicesteam/nutaxi-config-server/branch/master/graph/badge.svg)](https://codecov.io/gh/microservicesteam/nutaxi-config-server)
 
 
 The minimal Spring boot implementation of our central configuration server. Configs are fetched from Github, see the [nutaxi-configs](https://github.com/microservicesteam/nutaxi-configs) repository.
