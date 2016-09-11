@@ -8,5 +8,7 @@ spring:
           uri: https://github.com/microservicesteam/nutaxi-configs
           searchPaths: '{application}' # note only works in YAML format :(
           basedir: target/configs
+  profiles:
+    active: local, dev, test, prod
 server:
   port: 8888
