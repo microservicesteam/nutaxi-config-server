@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/microservicesteam/nutaxi-configs
-          searchPaths: '{application}' # note only works in YAML format :(
+          searchPaths: '{profile}' # note only works in YAML format :(
           basedir: target/configs
 server:
   port: 8888
